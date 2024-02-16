@@ -1,0 +1,15 @@
+Name: josh
+Items:
+- 4 Buttered roll
+- 5 Tea
+Amount: £8.50
+Date and Time: 16-02-2024-- 10:23:25
+------------------------------------
+
+Name: james
+Items:
+- 1 Tea
+Amount: £1.00
+Date and Time: 16-02-2024-- 10:29:17
+------------------------------------
+

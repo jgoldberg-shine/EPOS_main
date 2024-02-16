@@ -50,3 +50,9 @@ ensure code has:
 (15.2.24) PM 
 -need to edit code to produce error message for incorrect input
 -need to edit code so user can see menu
+
+(16.2.24) AM
+-link for git repository
+-link to trello 
+-link/picture for draw.io
+-share meeting minutes

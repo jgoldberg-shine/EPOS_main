@@ -25,14 +25,14 @@ menu = {                    #dictionary containing food menu items and associate
     "Cappuccino": 1.90,
     "Mocha": 2.00,
     "Hot chocolate": 2.20,
-    "Bottled Water" : 1.00,
+    "Bottled water" : 1.00,
     "Croissant": 1.50,
     "Muffin": 2.10,
     "Toast": 1.00,
     "Panini": 2.90,
-    "Buttered Roll": 0.70,
+    "Buttered roll": 0.70,
     "Stroopwafel": 0.50,
-    "Potato Cake": 1.00
+    "Potato cake": 1.00
 }
                              
 extras = {                  #Dictionary containing extra menu items and associated prices
@@ -119,7 +119,7 @@ def start():
 
     print(Fore.BLUE + f"Here is your order {customer_name} The total is £{total_cost:.2f}. Thank you for visiting Brian's Bistro, have a good day")
     print(Fore.BLUE + f"Date and Time: {current_datetime}")
-    print("Please leave us a review on our tripadvisor page https://www.tripadvisor.co.uk/Restaurant_Review-g186233-d27188539-Reviews-Brian_s_Bistro-Chester_Cheshire_England.html")    
+    print(Fore.LIGHTCYAN_EX + "Please leave us a review on our tripadvisor page https://www.tripadvisor.co.uk/Restaurant_Review-g186233-d27188539-Reviews-Brian_s_Bistro-Chester_Cheshire_England.html")    
 
     with open("receipts.txt", "a", encoding="utf-8") as f: #creates textfile to store orders and translate unicode character into matching binary string
         f.write("Name: " + customer_name + "\n") #"\n" used to create new line
