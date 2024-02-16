@@ -1,0 +1,52 @@
+meeting minutes 
+
+(13.2.24.) initial project discussion
+project to include:
+
+trello board - (shzeena create and share)
+create a diagram showing user story using draw.io (liam working on)
+evidence of project planning and design
+create code outline (to discuss later)
+
+
+code discussion:
+program needs to:
+	-allow user to pick items from a menu
+	-ask user how many of these they would like
+	-allow user to keep purchasing until they have requested a total
+	-display there ordered items and the total as a receipt
+extensions:
+	-create new user story to implement program extensions
+	-get customers name for the order
+	-create a written record for each order (dictionary?)
+	-create app?
+
+ensure code has: 
+	-meaningful names for variables, functions, classes and other program elements, 
+	-following commonly accepted naming conventions
+	-avoiding ambiguous or confusing names
+	-relevant data types were used for variables
+	-use if/else statements
+	-use loops to iterate over data structures such as arrays or objects
+	-functions that are correctly defined, named and structured to perform the indented tasks
+	-parameters are used to pass values to functions and return values from functions
+	-ensure data types are correctly formatted and valid
+	-functions are reused across different parts of the program
+	-libraries are imported correctly and used well within the code
+	-libraries have been installed into a virtual environment and requirements.txt created
+	-comment on code 
+
+(14.2.24) AM
+
+-discussed option of separating extras so that only the relevant extras are shown, e.g. skimmed milk won't be shown if you choose toast
+-discussed put classes into a separate file and calling them 
+-issue with code that extras are case sensitive, might be changed later on
+
+(15.2.24) AM
+
+-discussion on fixing bug where receipt also prints to terminal
+-discussion on fixing receipt price not being 2dp and £ sign not showing
+
+(15.2.24) PM 
+-need to edit code to produce error message for incorrect input
+-need to edit code so user can see menu
